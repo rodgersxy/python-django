@@ -1,60 +1,65 @@
 {% extends "base.html" %}
-      
- {% block content %}
-<style>
-    
-    body {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        background-color: #fdfdfd;
-    }
 
-    .head_text{
-    color: white;
-  }
-    .card{
-    box-shadow: 0 16px 48px #E3E7EB;
-}
-</style>
+{% block content %}
 
-    <header class="masthead" >
-            <div class="overlay"></div>
-            <div class="container">
-              <div class="row">
+
+    <header class="masthead">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
                 <div class=" col-md-8 col-md-10 mx-auto">
-                  <div class="site-heading">
-                    <h3 class=" site-heading my-4 mt-3 text-white"> Software Spotlight: Diving Deep into the Tech World </h3>
-                    <p class="text-light">Join us at BLOG CENTER, where we turn the heat up on software engineering discussions. Stay curious,
-                       stay connected, and stay inspired. Together, we'll code the future! 🔥💻🌟.! &nbsp
-                    </p>
-                </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-              </header>
-        
-            <div class="container">
-                <div class="row">
-      
-              <!-- Blog Entries Column -->
-              <div class="col-md-8 mt-3 left">
-                    {% for post in post_list %}
-                <div class="card mb-4" >
-                  <div class="card-body">
-                    <h2 class="card-title">{{ post.title }}</h2>
-                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                    <div class="site-heading">
+                        <h3 class=" site-heading my-4 mt-3 text-white"> Where Code and Creativity Converge. ✨</h3>
+                        <p class="text-light">Hello and welcome to my corner of the internet! 😊👋 I'm Rodgers Mogaka,
+                           a passionate software engineer, and I'm absolutely delighted to have you here.
 
-                    <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
-                  </div>
-                 
+                          This blog 📚💻 is my personal space where I share my coding journey, experiences, and insights
+                           in the ever-evolving world of software development. Whether you're a seasoned coder 🧙‍♂️, a curious beginner 🌱, or simply someone who adores technology 📱💡, you've come to
+                           the right place. There's a little something for everyone in this tech wonderland. 🌐✨ &nbsp
+                        </p>
+                    </div>
                 </div>
-                {% endfor %}
-            </div>
-                {% block sidebar %}
-                {% include 'sidebar.html' %}
-                {% endblock sidebar %}
             </div>
         </div>
+    </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 mt-3 left">
+                {% for post in post_list %}
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ post.title }}</h2>
+                            <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}}  </p>
+
+                            <p class="card-text">{{post.content|safe|slice:":200" }}</p>
+                            <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+
+                    </div>
+                {% endfor %}
+
+            </div>
+            {% block sidebar %}
+                {% include 'sidebar.html' %}
+            {% endblock sidebar %}
+        </div>
+    </div>
+    {% if is_paginated %}
+        <nav aria-label="Page navigation conatiner"></nav>
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+                <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+            {% endif %}
+            {% if page_obj.has_next %}
+                <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+
+            {% endif %}
+        </ul>
+        </nav>
+        </div>
+    {% endif %}
 {%endblock%}
