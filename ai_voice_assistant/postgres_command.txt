@@ -1,0 +1,6 @@
+sudo systemctl status postgresql
+
+sudo -i -u postgres
+createdb mydb
+exit
+psql -d mydb
