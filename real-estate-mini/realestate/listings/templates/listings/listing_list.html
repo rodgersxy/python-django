@@ -1,0 +1,24 @@
+<!-- listings/templates/listings/listing_list.html -->
+
+<!-- listings/templates/listings/listing_list.html -->
+
+{% for listing in listings %}
+  <h2>{{ listing.title }}</h2>
+  <p>{{ listing.description }}</p>
+  <p>Price: Ksh{{ listing.price }}</p>
+  <p>Bedrooms: {{ listing.bedrooms }}</p>
+  <p>Bathrooms: {{ listing.bathrooms }}</p>
+  <p>Square Feet: {{ listing.sqft }}</p>
+  <p>Listed on: {{ listing.list_date }}</p>
+  
+  <!-- Display the image -->
+ 
+
+  <img src="{{ listing.photo_main.url }}" alt="{{ listing.title }}">
+
+  <hr>
+{% endfor %}
+
+{% if not listings %}
+  <p>No listings available.</p>
+{% endif %}
