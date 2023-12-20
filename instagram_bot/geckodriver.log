@@ -1,0 +1,124 @@
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1702966047709	geckodriver	INFO	Listening on 127.0.0.1:50215
+1702966051208	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile30c4ky"
+Gtk-Message: 09:07:31.323: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:17568): Gtk-WARNING **: 09:07:32.078: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 09:07:32.079: Failed to load module "canberra-gtk-module"
+
+(firefox:17568): Gtk-WARNING **: 09:07:32.108: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 09:07:32.108: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702966069414	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702966072760	Marionette	INFO	Listening on port 40715
+Read port: 40715
+Read port: 40715
+Read port: 40715
+Read port: 40715
+Read port: 40715
+1702966078288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702966104238	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ix8E4/yW/l/en_US/2E6LEdQAmak.js?_nc_x=Ij3Wp8lg5Kz, line 88: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702966117983	Marionette	INFO	Stopped listening on port 40715
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i-OO4/yQ/l/en_US/jqDxwmbYCeI.js?_nc_x=Ij3Wp8lg5Kz, line 618: Script terminated by timeout at:
+a/c.intervalId<@https://static.cdninstagram.com/rsrc.php/v3i-OO4/yQ/l/en_US/jqDxwmbYCeI.js?_nc_x=Ij3Wp8lg5Kz:618:174
+
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1702970259010	geckodriver	INFO	Listening on 127.0.0.1:57663
+1702970259307	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyzTIuA"
+Gtk-Message: 10:17:39.360: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:23151): Gtk-WARNING **: 10:17:39.874: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 10:17:39.874: Failed to load module "canberra-gtk-module"
+
+(firefox:23151): Gtk-WARNING **: 10:17:39.880: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 10:17:39.880: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702970261806	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702970261957	Marionette	INFO	Listening on port 39869
+Read port: 39869
+1702970263186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 685))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ix8E4/yW/l/en_US/2E6LEdQAmak.js?_nc_x=Ij3Wp8lg5Kz, line 88: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702970292391	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702970299313	Marionette	INFO	Stopped listening on port 39869
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i-OO4/yQ/l/en_US/jqDxwmbYCeI.js?_nc_x=Ij3Wp8lg5Kz, line 618: Script terminated by timeout at:
+a/c.intervalId<@https://static.cdninstagram.com/rsrc.php/v3i-OO4/yQ/l/en_US/jqDxwmbYCeI.js?_nc_x=Ij3Wp8lg5Kz:618:174
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: security-state/intermediates list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:153:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:924:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
+
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.error: (new StorageError("Storage error: Error: IndexedDB: security-state/intermediates list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/RemoteSettingsClient.sys.mjs", 153))
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1703088326114	geckodriver	INFO	Listening on 127.0.0.1:56635
+1703088329833	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiletryxxE"
+Gtk-Message: 19:05:29.992: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:49862): Gtk-WARNING **: 19:05:30.626: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:05:30.626: Failed to load module "canberra-gtk-module"
+
+(firefox:49862): Gtk-WARNING **: 19:05:30.663: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:05:30.663: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703088345439	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703088347797	Marionette	INFO	Listening on port 42859
+Read port: 42859
+1703088351957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1703088375473	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ix8E4/yW/l/en_US/2E6LEdQAmak.js?_nc_x=Ij3Wp8lg5Kz, line 88: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iFnh4/yv/l/en_US/wqAoAD1yGbN.js?_nc_x=Ij3Wp8lg5Kz, line 515: Script terminated by timeout at:
+i.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v3iFnh4/yv/l/en_US/wqAoAD1yGbN.js?_nc_x=Ij3Wp8lg5Kz:515:4276
+C@https://static.cdninstagram.com/rsrc.php/v3iFnh4/yv/l/en_US/wqAoAD1yGbN.js?_nc_x=Ij3Wp8lg5Kz:515:1606
+i._initialize/<@https://static.cdninstagram.com/rsrc.php/v3iFnh4/yv/l/en_US/wqAoAD1yGbN.js?_nc_x=Ij3Wp8lg5Kz:515:4912
+d@https://static.cdninstagram.com/rsrc.php/v3iFnh4/yv/l/en_US/wqAoAD1yGbN.js?_nc_x=Ij3Wp8lg5Kz:516:158
+
+1703089298611	Marionette	INFO	Stopped listening on port 42859
