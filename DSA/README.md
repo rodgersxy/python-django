@@ -15,4 +15,6 @@
 7. Queues: FIFO (First-In-First-Out) data structures  
 8. Trees: Hierarchical data structures with a root node and child nodes  
 9. Graphs: Collections of nodes (vertices) connected by edges.  
-10. 
+
+![Screenshot from 2023-12-21 19-58-24](https://github.com/rodgersxy/python-django/assets/47353893/49c45beb-5a4b-49cc-b019-436e53f27719)
+
