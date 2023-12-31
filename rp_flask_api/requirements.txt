@@ -1,0 +1,5 @@
+Flask==2.2.2
+werkzeug>=1.0,<3
+connexion[swagger-ui]==2.14.1
+flask-marshmallow[sqlalchemy]==0.14.0
+connexion==2.14.1
