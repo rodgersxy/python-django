@@ -9,5 +9,12 @@
     <h1>
         Welcome to Flask REST API
     </h1>
+    <ul>
+        {% for person in people %}
+        <li>
+            {{person.fname}} {{person.lname}}
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
